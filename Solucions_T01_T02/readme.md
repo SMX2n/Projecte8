@@ -5,8 +5,8 @@ He mantingut l’estil professional i clar, amb taules i seccions ben definides.
 
 # #️⃣ **Proposta de Solució Tecnològica per a TransRàpid S.L.**
 
-**Data:** [Data actual]  
-**Equip Consultor:** [Nom del teu equip]
+**Data:** [15/5/2026]  
+**Equip Consultor:** [Marc i Marti]
 
 ---
 
