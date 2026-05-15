@@ -1,6 +1,6 @@
 # Tasca 1 – Pla de transformació digital per a TransRàpid S.L.
 
-**Alumne:** [El teu nom]  
+**Alumne:** [Marc i Martí]  
 **Data:** 15/05/2026  
 **Client:** TransRàpid S.L. (empresa de transport amb 2 camions i 4 furgonetes)
 
