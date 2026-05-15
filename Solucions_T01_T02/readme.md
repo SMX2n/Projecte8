@@ -1,114 +1,101 @@
-Aquí tens el text complet passat a **format Markdown**, polit i estructurat perquè el puguis posar directament al teu GitHub o al teu informe tècnic.  
-He mantingut l’estil professional i clar, amb taules i seccions ben definides.
+```markdown
+# Tasca 1 – Pla de transformació digital per a TransRàpid S.L.
+
+**Alumne:** [El teu nom]  
+**Data:** 15/05/2026  
+**Client:** TransRàpid S.L. (empresa de transport amb 2 camions i 4 furgonetes)
 
 ---
 
-# #️⃣ **Proposta de Solució Tecnològica per a TransRàpid S.L.**
+## 1. Anàlisi de l'estat actual (què fan ara i quins problemes tenen)
 
-**Data:** [15/5/2026]  
-**Equip Consultor:** [Marc i Marti]
+Ara mateix, TransRàpid S.L. fa servir un **fitxer Excel** per portar tot el negoci: els consums de combustible, les rutes, les factures, els horaris… El problema és que aquest Excel el comparteixen entre tots i es perd informació constantment. A més, l'arxiu s'ha tornat molt lent i de vegades es corromp (es fa malbé). Això fa que els treballadors perdin hores buscant dades i que hi hagi errors.
 
----
-
-## ## **1. Diagnòstic de la Situació: El "Caos de l'Excel"**
-
-L'ús d'un únic fitxer Excel per gestionar rutes, combustibles, manteniment i factures en una flota de 6 vehicles presenta **riscs crítics** que afecten l'eficiència i la seguretat del negoci:
-
-| **Punt de Dolor (Risc)** | **Impacte en el negoci** |
-|---------------------------|---------------------------|
-| **Pèrdua i Corrupció de Dades** | Excel no està dissenyat per a múltiples escriptures simultànies. El fitxer es pot corrompre si dos empleats l'obren alhora, provocant la pèrdua d'historial de manteniment o factures pendents. |
-| **Manca de Multiusuari i Traçabilitat** | No hi ha control de qui modifica què. Si l’administrador corregeix una ruta i el cap de logística actualitza el gasoil, es sobreescriuen dades sense rastre. |
-| **Errors Humans en Càlculs i Registres** | Introduir dades manualment provoca errors en quilòmetres, despeses o hores de treball, que després generen càlculs incorrectes de ruta o sous. |
-| **Inexistència de Còpies de Seguretat Automàtiques** | Normalment s’emmagatzema en un disc local o USB. Si el disc falla o el portàtil es perd, es perd tota la comptabilitat i planificació. |
-| **Baixa Productivitat en Ruta** | Els transportistes no tenen accés a la informació en temps real; treballen amb papers i tornen a l’oficina per tancar comandes, retardant el flux de caixa. |
+**Principals mancances:**
+- No tenen una base de dades de veritat.
+- No controlen qui pot veure o canviar cada dada (seguretat zero).
+- Quan un camió és a la carretera, no pot actualitzar l'estat de l'entrega en temps real.
+- No fan còpies de seguretat automàtiques; si es perd l'Excel, s'ha perdut tot.
 
 ---
 
-## ## **2. Catàleg de Maquinari (Hardware)**
+## 2. Objectius que volem aconseguir (SMART)
 
-### ### **2.1 Oficina (Sobirania de dades i gestió)**
+Per solucionar el caos, ens marquem aquests objectius:
 
-TransRàpid S.L., per la seva petita mida, **no necessita un servidor local car i difícil de mantenir**.
-
-**Solució Cloud (Servidor en el núvol):**  
-És l'opció més viable. S'evita la compra d'un servidor físic (2.000 €+), s'elimina el cost de l'administrador de sistemes i es garanteix l'accés remot.
-
-**Equips de sobretaula (2 unitats):**  
-Necessiten potència per gestionar l’ERP/TMS, però no han de ser extrems.
-
-| **Producte** | **Especificacions mínimes** | **Preu Unitari** | **Total (2 unitats)** |
-|---------------|-----------------------------|------------------|-----------------------|
-| PC Sobretaula Administrador/Logística | Intel i5 / 16GB RAM / SSD 256GB / Windows 11 Pro | 650,00 € | 1.300,00 € |
-| Monitor i Perifèrics | Monitor 24" FHD + Teclat/Ratolí | 180,00 € | 360,00 € |
+1. **Reduir en un 80% les pèrdues d'informació** en 2 mesos, canviant l'Excel per un sistema de gestió de transport (TMS) al núvol.
+2. **Que els transportistes puguin actualitzar l'estat de cada lliurament en temps real** des del seu vehicle, en 1 mes.
+3. **Fer còpies de seguretat automàtiques cada dia** per no perdre mai les dades.
+4. **Estalviar 10 hores a la setmana** que ara es perden buscant dades o corregint errors.
 
 ---
 
-### ### **2.2 Dispositius en Ruta (Resistents i Connectats)**
+## 3. Què proposem per millorar-ho?
 
-Els transportistes necessiten dispositius **robustos (rugged)**, amb pantalla visible sota el sol, bateria de llarga durada i 4G per enviar l’albarà signat.
+Dividirem la solució en **maquinari** (els aparells) i **programari** (els programes).
 
-| **Producte** | **Característica clau per a TransRàpid** | **Preu Unitari** | **Total (6 unitats)** |
-|---------------|------------------------------------------|------------------|-----------------------|
-| Tableta Robusta 8" (Cleyver XTREM MAX 8 o similar) | IP68, bateria 12.000 mAh, 4G, GPS, pantalla 1300 Nits | 550,00 € | 3.300,00 € |
-| Suport de cabina magnètic o ventosa | Per fixar la tableta al quadre de comandament | 30,00 € | 180,00 € |
-| Targeta SIM de dades (mensual) | Tarifa de dades compartides (10GB/mes per vehicle) | — | — |
+### 3.1 Maquinari (hardware)
 
----
+**A l'oficina:**
+- Un **NAS** (és com un disc dur connectat a la xarxa) per guardar totes les dades i fer còpies de seguretat. Model recomanat: **Synology DS224+** (uns 400 €).
+- Dos ordinadors nous: processador **Intel i5** o **Ryzen 5**, **16 GB de RAM** i disc **SSD de 512 GB**. Així van ràpids i no es pengen. Preu aproximat: 800 € cadascun.
 
-## ## **3. Estudi Comparatiu de Programari (Software)**
+**Als vehicles (6 en total):**
+- Una **tableta robusta** per a cada camió i furgoneta. Han de ser resistents a cops, pols i aigua (protecció IP68). Per exemple, la **Cleyver XTREM Tablet MAX 8**. Preu: uns 600 € per unitat.
+- Cada tableta ha de tenir una **targeta SIM amb connexió 4G** per anar sempre a internet. Cost: uns 20 €/mes per tableta.
 
-S'ha d'escollir entre un **Sistema Lliure (Odoo)** per a major control i baix cost, o un **Sistema Comercial (SAP Business One + TMS)** per a fiabilitat i suport.
+**Total maquinari:**
+- NAS: 400 €
+- 2 ordinadors: 1.600 €
+- 6 tauletes: 3.600 €
+- **Total = 5.600 €** (més les SIM: 120 €/mes)
 
-| **Criteri** | **Opció A: Odoo Community + mòdul Flota** | **Opció B: SAP Business One + TMS integrat** |
-|--------------|-------------------------------------------|----------------------------------------------|
-| **Llicència** | Gratuïta (codi obert). Només hosting i suport extern. | De pagament (per usuari/any). Cost inicial elevat. |
-| **Personalització** | Alta. Es pot modificar qualsevol mòdul. | Mitjana. Limitada per la llicència. |
-| **Gestió de Flota** | Control de combustible, manteniments i rutes bàsiques. | Control avançat amb eCMR, mapes i integració fiscal. |
-| **Integració** | Requereix programadors externs. | Nativa entre TMS i ERP. Molt fiable. |
-| **Suport tècnic** | Comunitat o contractar extern. | Centre d’atenció oficial 24/7. |
-| **Viabilitat per TransRàpid** | Ideal per aprendre i estalviar. | Ideal per escalar i eliminar errors administratius. |
+### 3.2 Programari (software) – Comparem dues opcions
 
-**Recomanació:**  
-Com que és una PIME amb 2 camions i voluntat de créixer, s’aconsella iniciar amb **Opció A (Odoo)** per reduir costos inicials, contractant un **suport tècnic administrat (~200 €/mes)**.
+| Característica | Opció 1: Programari lliure (Odoo Community) | Opció 2: Programari comercial (SaaS) |
+|----------------|---------------------------------------------|--------------------------------------|
+| **Preu** | Gratuït (només paguem instal·lació) | Subscripció mensual per usuari |
+| **On s'allotja** | Al nostre NAS o en un servidor | Al núvol (no ens hem de preocupar) |
+| **Manteniment** | L'ha de fer un tècnic | Ja ho fa l'empresa del programa |
+| **Facilitat d'ús** | Mitjana (cal una mica de formació) | Alta (molt intuïtiu) |
+| **Exemples** | Odoo Community (mòduls de flota i facturació) | Cargoson, Logistiqo, Odoo Enterprise |
 
----
+**Quina triar per a TransRàpid?**  
+Jo recomanaria l'**Opció 2 (SaaS comercial)** perquè l'empresa és petita i no vol complicacions. Pagant uns 40 € per usuari al mes ja tenen tot: rutes, facturació, estat dels lliuraments en temps real i actualitzacions automàtiques. Així poden dedicar-se a transportar, no a fer de tècnics.
 
-## ## **4. Seguretat i Còpies de Seguretat (Backup)**
-
-Per garantir que no es torni a perdre informació, s’aplica el **protocol 3-2-1**:
-
-- **Automàtic al núvol:** L’ERP guarda dades cada 5 minuts (Google Cloud o AWS).  
-- **Còpia local diària:** Els discos dels PCs es repliquen a un **NAS de 1TB (300 €)**.  
-- **Fora de l’oficina:** El NAS envia una còpia xifrada al núvol cada nit.  
-- **Seguretat específica:** Els transportistes signen digitalment l’albarà a la tableta; la imatge es puja automàticament al núvol via 4G.
+**Cost del programari (Opció 2):**  
+8 usuaris (administrador, cap de logística, 6 transportistes) × 40 €/mes = **320 €/mes**. El primer any són uns 3.840 €.
 
 ---
 
-## ## **5. Pressupost de Digitalització Total**
+## 4. Pressupost total (primer any)
 
-| **Concepte** | **Detall** | **Cost (€)** |
-|---------------|-------------|--------------|
-| **1. Maquinari (Oficina)** | 2 PCs + NAS Backup | 1.960,00 € |
-| **2. Maquinari (Ruta)** | 6 Tabletes + Suports | 3.480,00 € |
-| **3. Programari (Odoo Lliure)** | 2 Mòduls + Hosting Cloud (12 mesos) | 720,00 € |
-| **4. Serveis Professionals** | Migració de l’Excel + Formació (8h) | 1.200,00 € |
-| **5. Assegurança de Dades** | Backup automàtic + Antivirus (12 mesos) | 240,00 € |
-| **TOTAL IMPLEMENTACIÓ (1r any)** | — | **7.600,00 €** |
-| **Despeses recurrents (any 2+)** | Hosting + Suport anual | ~1.200,00 €/any |
+| Concepte | Cost |
+|----------|------|
+| Maquinari (NAS, 2 PCs, 6 tauletes) | 5.600 € |
+| Programari SaaS (12 mesos × 320 €) | 3.840 € |
+| Instal·lació i configuració (tècnic, 20 hores a 50 €/h) | 1.000 € |
+| Formació als treballadors (10 hores a 40 €/h) | 400 € |
+| **TOTAL** | **10.840 €** |
 
----
-
-## ## **Conclusió i Punts d’Innovació**
-
-### **Innovació aplicada**
-S’elimina el paper de l’albarà: els transportistes reben la ruta a la tableta, el client signa digitalment i la signatura arriba automàticament al correu de l’administrador.
-
-### **Viabilitat tècnica**
-Alta. La inversió de **7.600 €** es recupera en pocs mesos gràcies a:
-- Reducció d’errors de combustible (~15% menys marge d’error).  
-- Estalvi d’hores d’administració.  
-- Millora de la traçabilitat i seguretat de dades.
+A més, cada mes es paguen 120 € de les targetes SIM dels vehicles.
 
 ---
 
-Vols que et generi també una **versió resumida per diapositives** o una **versió amb format de dossier comercial** per entregar al client? Puc fer-ho amb el mateix contingut.
+## 5. Seguretat i còpies de seguretat
+
+Per no perdre mai les dades, farem:
+- **Còpia automàtica diària** al NAS de l'oficina.
+- **Còpia automàtica setmanal** a un núvol (per exemple, Google Drive o Backblaze).
+- **Control d'usuaris**: només l'administrador pot esborrar factures; els transportistes només poden veure les seves rutes i marcar entregues.
+
+---
+
+## 6. Conclusió
+
+Amb aquest pla, TransRàpid S.L. deixarà de patir per l'Excel. Tindran un sistema professional, segur i fàcil d'usar. Els transportistes actualitzaran els lliuraments des de la carretera, l'oficina veurà les dades en temps real i tot estarà protegit amb còpies de seguretat. La inversió d'uns 10.000 € es recuperarà en pocs mesos gràcies a l'estalvi de temps i a l'eliminació d'errors.
+
+--- 
+
+*Treball realitzat per [El teu nom] – SMX 2n*
+```
