@@ -96,5 +96,5 @@ Amb aquest pla, TransRàpid S.L. deixarà de patir per l'Excel. Tindran un siste
 
 --- 
 
-*Treball realitzat per [El teu nom] – SMX 2n*
+*Treball realitzat per [Marc i Martí – SMX 2n*
 ```
