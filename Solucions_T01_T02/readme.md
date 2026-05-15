@@ -1,4 +1,3 @@
-```markdown
 # Tasca 1 – Pla de transformació digital per a TransRàpid S.L.
 
 **Alumne:** [El teu nom]  
