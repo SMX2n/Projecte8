@@ -8,9 +8,11 @@
 
 ## 1. Anàlisi de l'estat actual (què fan ara i quins problemes tenen)
 
-Ara mateix, TransRàpid S.L. fa servir un **fitxer Excel** per portar tot el negoci: els consums de combustible, les rutes, les factures, els horaris… El problema és que aquest Excel el comparteixen entre tots i es perd informació constantment. A més, l'arxiu s'ha tornat molt lent i de vegades es corromp (es fa malbé). Això fa que els treballadors perdin hores buscant dades i que hi hagi errors.
+Ara mateix, TransRàpid S.L. fa servir un **fitxer Excel** per portar tot el negoci: els consums de combustible, les rutes, les factures, els horaris
 
-**Principals mancances:**
+El problema és que aquest Excel el comparteixen entre tots i es perd informació constantment. A més, l'arxiu s'ha tornat molt lent i es fa malbé. Això fa que els treballadors perdin hores buscant dades i que hi hagi errors.
+
+**Coses que no tenen o que no fan bé:**
 - No tenen una base de dades de veritat.
 - No controlen qui pot veure o canviar cada dada (seguretat zero).
 - Quan un camió és a la carretera, no pot actualitzar l'estat de l'entrega en temps real.
