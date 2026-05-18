@@ -33,12 +33,14 @@ Per solucionar el caos, ens marquem aquests objectius:
 
 ## 3. Què proposem per millorar-ho?
 
-Dividirem la solució en **maquinari** (els aparells) i **programari** (els programes).
+Dividirem la solució en **maquinari**  i **programari** .
 
 ### 3.1 Maquinari (hardware)
 
 **A l'oficina:**
-- Un **NAS** (és com un disc dur connectat a la xarxa) per guardar totes les dades i fer còpies de seguretat. Model recomanat: **Synology DS224+** (uns 400 €).
+- Posarem un **NAS** (és com un disc dur connectat a la xarxa) per guardar totes les dades i fer còpies de seguretat. Model recomanat: **Synology DS224+** (uns 400 €).
+https://www.pccomponentes.com/synology-diskstation-ds224-nas?s_kwcid=AL!14405!3!!!!x!!&gad_source=1&gad_campaignid=17335768752&gclid=CjwKCAjw8arQBhB9EiwAfIKdQlt9dx7553Eodz5zCHdoYeN51k8GPEw4AEoQZb5QaPQYJBeclYV8OhoChfEQAvD_BwE
+
 - Dos ordinadors nous: processador **Intel i5** o **Ryzen 5**, **16 GB de RAM** i disc **SSD de 512 GB**. Així van ràpids i no es pengen. Preu aproximat: 800 € cadascun.
 
 **Als vehicles (6 en total):**
