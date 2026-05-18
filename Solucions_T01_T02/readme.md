@@ -91,16 +91,17 @@ A més, cada mes es paguen 120 € de les targetes SIM dels vehicles.
 
 Per no perdre mai les dades, farem:
 - **Còpia automàtica diària** al NAS de l'oficina.
-- **Còpia automàtica setmanal** a un núvol (per exemple, Google Drive o Backblaze).
+- **Còpia automàtica setmanal** a un núvol com per exemple google Drive.
 - **Control d'usuaris**: només l'administrador pot esborrar factures; els transportistes només poden veure les seves rutes i marcar entregues.
 
 ---
 
 ## 6. Conclusió
 
-Amb aquest pla, TransRàpid S.L. deixarà de patir per l'Excel. Tindran un sistema professional, segur i fàcil d'usar. Els transportistes actualitzaran els lliuraments des de la carretera, l'oficina veurà les dades en temps real i tot estarà protegit amb còpies de seguretat. La inversió d'uns 10.000 € es recuperarà en pocs mesos gràcies a l'estalvi de temps i a l'eliminació d'errors.
+Amb aquest pla en Marti i Jo TransRàpid S.L. deixarà de patir per l'Excel que portan actualment, pensem que no es gaire segur i es mes facil invertir per coses mes de qualitat i que serveixin per la empresa
+a partir d'ara tindran un sistema professional i segur, a part els transportistes podran seguir els lliuraments des de la carretera, l'oficina veurà les dades en temps real i tot estarà protegit amb còpies de seguretat. La inversió d'uns 10.000 € es recuperarà en pocs mesos gràcies a l'estalvi de temps.
 
 --- 
 
-*Treball realitzat per [Marc i Martí – SMX 2n*
+*Treball fet per [Marc i Martí – SMX 2n*
 ```
