@@ -39,7 +39,8 @@ Dividirem la solució en **maquinari**  i **programari** .
 
 **A l'oficina:**
 - Posarem un **NAS** (és com un disc dur connectat a la xarxa) per guardar totes les dades i fer còpies de seguretat. Model recomanat: **Synology DS224+** (uns 400 €).
-https://www.pccomponentes.com/synology-diskstation-ds224-nas?s_kwcid=AL!14405!3!!!!x!!&gad_source=1&gad_campaignid=17335768752&gclid=CjwKCAjw8arQBhB9EiwAfIKdQlt9dx7553Eodz5zCHdoYeN51k8GPEw4AEoQZb5QaPQYJBeclYV8OhoChfEQAvD_BwE
+
+  [Synology DiskStation DS224+ NAS - PCComponentes](https://www.pccomponentes.com/synology-diskstation-ds224-nas?s_kwcid=AL!14405!3!!!!x!!&gad_source=1&gad_campaignid=17335768752&gclid=CjwKCAjw8arQBhB9EiwAfIKdQlt9dx7553Eodz5zCHdoYeN51k8GPEw4AEoQZb5QaPQYJBeclYV8OhoChfEQAvD_BwE)
 
 - Dos ordinadors nous: processador **Intel i5** o **Ryzen 5**, **16 GB de RAM** i disc **SSD de 512 GB**. Així van ràpids i no es pengen. Preu aproximat: 800 € cadascun.
 
