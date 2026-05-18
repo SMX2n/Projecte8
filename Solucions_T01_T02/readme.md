@@ -45,13 +45,14 @@ Dividirem la solució en **maquinari**  i **programari** .
 - Dos ordinadors nous: processador **Intel i5** o **Ryzen 5**, **16 GB de RAM** i disc **SSD de 512 GB**. Així van ràpids i no es pengen. Preu aproximat: 800 € cadascun.
 
 **Als vehicles (6 en total):**
-- Una **tableta robusta** per a cada camió i furgoneta. Han de ser resistents a cops, pols i aigua (protecció IP68). Per exemple, la **Cleyver XTREM Tablet MAX 8**. Preu: uns 600 € per unitat.
+- Una **tableta informatica** per a cada camió i furgoneta. Han de ser resistents a cops, pols i aigua (protecció IP68). Per exemple, la **Cleyver XTREM Tablet MAX 8**. Preu: uns 600 € per unitat.
 - Cada tableta ha de tenir una **targeta SIM amb connexió 4G** per anar sempre a internet. Cost: uns 20 €/mes per tableta.
+[Cleyver XTREM Tablet MAX 8](https://www.onedirect.es/productos/cleyver-xtrem-tablet-max-8)
 
 **Total maquinari:**
 - NAS: 400 €
 - 2 ordinadors: 1.600 €
-- 6 tauletes: 3.600 €
+- 6 tauletes per els 6 vehicles: 3.600 €
 - **Total = 5.600 €** (més les SIM: 120 €/mes)
 
 ### 3.2 Programari (software) – Comparem dues opcions
