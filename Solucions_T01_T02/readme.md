@@ -66,7 +66,7 @@ Dividirem la solució en **maquinari**  i **programari** .
 | **Exemples** | Odoo Community (mòduls de flota i facturació) | Cargoson, Logistiqo, Odoo Enterprise |
 
 **Quina triar per a TransRàpid?**  
-Jo recomanaria l'**Opció 2 (SaaS comercial)** perquè l'empresa és petita i no vol complicacions. Pagant uns 40 € per usuari al mes ja tenen tot: rutes, facturació, estat dels lliuraments en temps real i actualitzacions automàtiques. Així poden dedicar-se a transportar, no a fer de tècnics.
+Nosaltres hem recomenat fer l'**Opció 2 (SaaS comercial)** perquè l'empresa és petita i no vol complicacions. Pagant uns 40 € per usuari al mes ja tenen tot com per exemple rutes, facturació, estat dels lliuraments en temps real i actualitzacions automàtiques. Així poden dedicar-se a transportar, no a fer de tècnics.
 
 **Cost del programari (Opció 2):**  
 8 usuaris (administrador, cap de logística, 6 transportistes) × 40 €/mes = **320 €/mes**. El primer any són uns 3.840 €.
